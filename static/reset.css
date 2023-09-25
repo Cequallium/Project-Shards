@@ -27,13 +27,14 @@ h3{
     color: #dcdcdc;
     font-weight: normal;
 }
+/* For debugging layout issues */
 
-section:active *,footer:active *{
+/* section:active *,footer:active *{
     border: red solid 1px;
 }
 section:active, footer:active{
     border: orange solid 1px;
-}
+} */
 
 body{
     background-color: #1e1e1e;

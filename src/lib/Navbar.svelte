@@ -1,7 +1,6 @@
 <script>
     import About from "../routes/about/+page.svelte"
     import { page } from '$app/stores';
-    // import { onMount } from "svelte";
     /**
      * @type {HTMLDialogElement}
 	 */
@@ -21,19 +20,6 @@
             isOpen = false
         }
     }
-    // onMount(()=>{
-    //     menu.addEventListener("click", e => {
-    //         const dialogDimensions = menu.getBoundingClientRect()
-    //         if (
-    //             e.clientX < dialogDimensions.left ||
-    //             e.clientX > dialogDimensions.right ||
-    //             e.clientY < dialogDimensions.top ||
-    //             e.clientY > dialogDimensions.bottom
-    //         ) {
-    //             menu.close()
-    //         }
-    //     })
-    // })
 </script>
 
 <nav>

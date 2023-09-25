@@ -1,12 +1,9 @@
 <script>
-    import New from "../new/+page.svelte";
-
 </script>
 <div>
     <h1 class="thanks">Thanks for downloading Project Shards</h1>
     <h3 class="contribute">how to contribute</h3>
     <h3 class="help">help links</h3>
-    <New/>
     <div class="instructions">
         <div class="etch">
             <h2>Etch</h2>
