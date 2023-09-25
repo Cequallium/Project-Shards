@@ -1,0 +1,44 @@
+button,body,ul,li,a,input,textarea,h1,h3{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    
+}
+button,a{
+    cursor: pointer;
+    user-select: none;
+    text-decoration: none;
+    color: none;
+    padding: 0px;
+    margin: 0px;
+}
+html{
+    width: 100vw;
+    height: 100vh;
+}
+input,textarea{
+    background-color: #ffffff;
+}
+
+h3{
+    font-size: 1rem;
+
+    margin-top: 0.4em;
+    color: #dcdcdc;
+    font-weight: normal;
+}
+
+section:active *,footer:active *{
+    border: red solid 1px;
+}
+section:active, footer:active{
+    border: orange solid 1px;
+}
+
+body{
+    background-color: #1e1e1e;
+    color: white;
+    
+    --accent: #2ec27e;
+    font-family: "Cantarell";
+}
